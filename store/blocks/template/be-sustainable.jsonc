@@ -1,0 +1,110 @@
+{
+  "store.custom#be-sustainable": {
+    "blocks": [
+      "flex-layout.row#sustainability-wrapper"
+    ]
+  },
+  "flex-layout.row#sustainability-wrapper": {
+    "title": "Content",
+    "children": [
+      "flex-layout.col#sustainability"
+    ]
+  },
+  "flex-layout.col#sustainability": {
+    "props": {
+      "blockClass": "sustainability-wrapper"
+    },
+    "children": [
+      "image#sustainable-banner",
+      "flex-layout.col#cards-sustainability-wrapper"
+    ]
+  },
+  "image#sustainable-banner": {
+    "title": "Banner",
+    "props": {
+      "src": "assets/sustainability-banner.jpeg"
+    }
+  },
+  "flex-layout.col#cards-sustainability-wrapper": {
+    "props": {
+      "blockClass": "cards-sustainability-wrapper"
+    },
+    "children":[
+      "info-card#first-left",
+      "info-card#first-right",
+      "info-card#second-left",
+      "info-card#second-right",
+      "info-card#third-left"
+    ]
+  },
+  "info-card#first-left": {
+    "title": "Info Card 1",
+    "props": {
+      "id": "sustainability-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sustainable-1.jpeg",
+      "headline": "What is sustainability?",
+      "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
+      "blockClass": "sustainability",
+      "textAlignment": "right",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#first-right": {
+    "title": "Info Card 2",
+    "props": {
+      "id": "sustainability-2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/susteinable-2.jpeg",
+      "headline": "Sustainability Meaning",
+      "subhead": "Sustainability means meeting our own needs without compromising the ability of future generations to meet their own needs. In addition to natural resources, we also need social and economic resources. Sustainability is not just environmental- ism.",
+      "blockClass": "sustainability",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#second-left": {
+    "title": "Info Card 3",
+    "props": {
+      "id": "sustainability-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sustainable-3.jpeg",
+      "headline": "What are 3 principles of sustainability?",
+      "subhead": "Therefore, sustainability is made up of three pillars: the economy, society, and the environment. These principles are also informally used as profit, people and planet.",
+      "blockClass": "sustainability",
+      "textAlignment": "center",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#second-right": {
+    "title": "Info Card 4",
+    "props": {
+      "id": "sustainability-4",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/sustainable-1.jpeg",
+      "headline": "4 types of susteinability?",
+      "subhead": "The term sustainability is broadly used to indicate programs, initiatives and actions aimed at the preservation of a particular resource. However, it actually refers to four distinct areas: human, social, economic and environmental – known as the four pillars of sustainability.",
+      "blockClass": "sustainability",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#third-left": {
+    "title": "Info Card 5",
+    "props": {
+      "id": "sustainability-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/susteinable-2.jpeg",
+      "headline": "What are susteinable materials?",
+      "subhead": "Sustainable materials are materials used throughout our consumer and industrial economy that can be produced in required volumes without depleting non-renewable resources and without disrupting the established steady-state equilibrium of the environment and key natural resource systems.",
+      "blockClass": "sustainability",
+      "textAlignment": "right",
+      "callToActionMode": "none"
+    }
+  }
+}
